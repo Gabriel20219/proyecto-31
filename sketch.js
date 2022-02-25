@@ -49,7 +49,7 @@ function setup() {
   for (var i = 0; i <= 8; i++) {
     var x = random(width / 2 - 200, width / 2 + 300);
     var y = random(-100, 100);
-    var stone = new Stone(x, y, 70, 70);
+    var stone = new Stone(x, y, 65, 65);
     stones.push(stone);
   }
 
